@@ -31,11 +31,11 @@ replace project_name in Procfile with actual projectname
 
 ```
 ```
-replace project_name in wsgi.py with actual projectname
+-  Now you can run:  $ git add .
 
 ```
 
--  Now you can run:  $ git add .
+
 
 
 
