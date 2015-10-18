@@ -1,5 +1,5 @@
 """
-Django settings for interns project.
+Django settings for {{ project_name }} project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.8/topics/settings/
@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django_extensions',
 
     # Project apps.
-    #'interns.apps.',
+    #'{{ project_name }}.apps.',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -56,7 +56,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'interns.urls'
+ROOT_URLCONF = '{{ project_name }}.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'interns.wsgi.application'
+WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
 
 
 # Database
