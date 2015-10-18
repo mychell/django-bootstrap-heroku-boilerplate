@@ -23,6 +23,13 @@ Run database migrations:
 python manage.py migrate
 ```
 
+Test Locally:
+
+```
+python manage.py runserver
+```
+
+
 
 ## Before deploying to heroku
 
